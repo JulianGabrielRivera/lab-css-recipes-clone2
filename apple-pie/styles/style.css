@@ -1,0 +1,25 @@
+body {
+  width: 98vw;
+}
+
+h1 {
+  text-align: center;
+}
+.divBox {
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+.divBox p {
+  text-align: left;
+}
+
+.divBox img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul li {
+  list-style-type: none;
+}
