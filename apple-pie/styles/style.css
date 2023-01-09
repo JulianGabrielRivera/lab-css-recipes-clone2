@@ -1,9 +1,24 @@
 body {
   width: 98vw;
 }
+html {
+  font-size: 12px;
+}
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/apple-pie.jpg");
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2vw;
+  height: 80vh;
+}
 
 h1 {
-  text-align: center;
+  font-size: 4rem;
+  color: white;
 }
 .divBox {
   margin-right: 10vw;
@@ -11,6 +26,7 @@ h1 {
 }
 .divBox p {
   text-align: left;
+  font-size: 2rem;
 }
 
 .divBox img {
@@ -22,4 +38,8 @@ h1 {
 
 ul li {
   list-style-type: none;
+  font-size: 2rem;
+}
+ol li {
+  font-size: 2rem;
 }
